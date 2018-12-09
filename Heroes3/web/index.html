@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Heroes list</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+    <!--<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>-->
+    <!--<script src = "js/jquery.min.js" ></script>-->
+    <script src = "js/script.js" ></script>
+</head>
+
+<body>
+
+<!--<input type="text" name="name" placeholder="NAME" id = "hero_name" /><br>
+<input type="text" name="universe" placeholder="UNIVERSE" id = "hero_universe" /><br>
+<input type="text" name="power" placeholder="POWER" id = "hero_power" /><br>
+<input type="text" name="description" placeholder="DESCRIPTION" id = "hero_description" /><br>
+<input type="text" name="alive" placeholder="ALIVE" id = "hero_alive" /><br>
+<input type="button" id="btn" value="Отправить" />-->
+
+
+
+<header>
+    <input type="button" id="btn_create" value="Create Hero" />
+</header>
+
+<div id="modal_form_add"><!-- Сaмo oкнo -->
+    <span id="modal_close_add">X</span> <!-- Кнoпкa зaкрыть -->
+    <input type="text" name="name" placeholder="NAME" id = "hero_name" /><br>
+    <input type="text" name="universe" placeholder="UNIVERSE" id = "hero_universe" /><br>
+    <input type="text" name="power" placeholder="POWER" id = "hero_power" /><br>
+    <input type="text" name="description" placeholder="DESCRIPTION" id = "hero_description" /><br>
+    <input type="text" name="alive" placeholder="ALIVE" id = "hero_alive" /><br>
+    <input type="button" id="btn_add" value="Send Hero" />
+</div>
+<div id="overlay_add"></div><!-- Пoдлoжкa -->
+
+
+
+
+
+
+<div id="hero_place">
+
+</div>
+
+
+<div id="modal_form_update"><!-- Сaмo oкнo -->
+    <span id="modal_close_update">X</span> <!-- Кнoпкa зaкрыть -->
+    <input type="text" name="name" placeholder="NAME" id = "update_hero_name" /><br>
+    <input type="text" name="universe" placeholder="UNIVERSE" id = "update_hero_universe" /><br>
+    <input type="text" name="power" placeholder="POWER" id = "update_hero_power" /><br>
+    <input type="text" name="description" placeholder="DESCRIPTION" id = "update_hero_description" /><br>
+    <input type="text" name="alive" placeholder="ALIVE" id = "update_hero_alive" /><br>
+    <input type="button" id="update_btn" value="Update Hero" />
+</div>
+<div id="overlay_update"></div><!-- Пoдлoжкa -->
+
+</body>
+</html>
